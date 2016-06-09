@@ -39,6 +39,7 @@ public class AutomationHomePage extends BaseClass{
 		public static class DressesPage
 		{
 				
+			System.out.println("Testing");
 			@FindBy(how=How.XPATH, using="//*a[@title='Summer Dresses']")
 			public static WebElement summer_dresses;
 			
